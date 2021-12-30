@@ -1,0 +1,36 @@
+html {
+    background-image: url(../img/fireworks.jpg);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: hsl(0 0% 0% / 0.5);
+    height: 100vh;
+}
+
+img {
+    width: 700px;
+}
+
+img svg {
+    fill: violet;
+}
+
+.text {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(221, 224, 230);
+}
